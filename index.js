@@ -11,7 +11,7 @@ export default async function handler(req, res) {
   console.log("👻 Ghostline Hit:", JSON.stringify(payload, null, 2));
 
   // Send to Zapier (replace with your actual Zapier URL)
-  await fetch("https://hooks.zapier.com/hooks/catch/xxxxxx/yyyyyy", {
+  await fetch("https://hooks.zapier.com/hooks/catch/22459586/2xpj9rh/", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
